@@ -1,0 +1,51 @@
+body{ 
+    margin: auto;
+    max-width:480px;
+    background-color:#4d194dff;
+}
+
+div{
+    outline: 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Heebo', sans-serif;
+    font-size:40px;
+    color: white;
+}
+
+#a{
+  background:#006466ff;
+}
+
+#b{
+    background:#065a60ff;
+}
+
+#c{
+    background:#0b525bff;
+}
+
+#d{
+    background: #144552ff;
+}
+
+#e{
+    background:#1b3a4bff;
+}
+
+#f{
+    background:#212f45ff;
+}
+
+#g{
+    background: #272640ff;
+}
+
+#h{
+    background: #312244ff;
+}
+
+#i{
+    background: #3e1f47ff;
+}

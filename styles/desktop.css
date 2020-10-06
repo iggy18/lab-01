@@ -1,0 +1,84 @@
+@media only screen and (min-width: 768px) {
+body{
+    max-width: 960px;
+}
+*{
+    transition: all 1.5s ease-in-out;
+}
+
+#a{
+    width: 100%;
+    height: 100px;
+    background: #ffb600ff;
+}
+
+#b{
+    height: 600px;
+    width: 20.833333%;
+    float: left;
+    background:#ffaa00ff;
+}
+
+#cd{
+    height: 200px;
+    width: 79.16666%;
+    float: left;
+}
+
+#c{
+    height: 100%;
+    width: 50%;
+    float: left;
+    background:#ff9e00ff;
+}
+
+#d{
+    height: 100%;
+    width:50%;
+    float: right;
+    background:#ff9100ff;
+}
+
+#efgh{
+    float: right;
+    width:79.1666%;
+}
+
+#e{
+    background:#ff8500ff;
+}
+#f{
+    background:#ff7900ff;
+}
+
+#g{
+    background:#ff6d00ff;
+}
+#h{
+    background:#ff6000ff;
+}
+
+#e, #f, #g, #h{
+    float: left;
+    width:25%;
+    height:250px;
+}
+
+#i{
+    height:150px;
+    width:79.166%;
+    float:right;
+    background:#ff5400ff;
+}
+
+body {
+    background:#ff4800ff;
+}
+
+div:hover{
+    text-shadow: 9px 9px 5px rgba(19, 19, 19, 0.64);
+    box-shadow: inset 0 0 20px 20px rgba(116, 71, 5, 0.2);
+}
+
+
+}
