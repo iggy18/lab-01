@@ -1,12 +1,22 @@
+@media only screen and (max-width: 768px){
+
 *{
     transition: all 1.5s ease-in-out;
 }
 
+body{
+    display: flex;
+    flex-flow: row wrap;
+    font-size:10vw;
+}
+
 #a{
+    width: 100%;
     height:75px;
 }
 
 #b{
+    width: 100%;
     height:150px;
 }
 
@@ -22,30 +32,27 @@
 
 #e{
     height:250px;
-    width: 50%;
-    float:left;
+    width:50%;
 }
 
 #f{
     width:50%;
     height:250px;
-    float:right;
 }
 
 #g{
     height:250px;
     width:50%;
-    float:left;
 }
 
 #h{
     height:250px;
     width:50%;
-    float:right;
 }
 
 #i{
-    float: left;
     width:100%;
     height:80px;
+}
+
 }
