@@ -1,6 +1,8 @@
+@media only screen and (max-width: 768px){
+
 body{ 
     margin: auto;
-    max-width:480px;
+    max-width:100%;
     background-color:#4d194dff;
 }
 
@@ -10,9 +12,9 @@ div{
     justify-content: center;
     align-items: center;
     font-family: 'Heebo', sans-serif;
-    font-size:40px;
     color: white;
 }
+
 
 #a{
   background:#006466ff;
@@ -48,4 +50,5 @@ div{
 
 #i{
     background: #3e1f47ff;
+}
 }
